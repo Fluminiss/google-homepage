@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style>
+            h1{
+                color:rgb(104, 3, 0);
+                margin: auto;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                display: inline;
+            }
+            .navbar {
+                padding-left:27px;
+                margin: auto;
+                text-decoration: none;
+            }
+            .navbar a{
+                text-decoration: none;
+                color: black            }
+            .navlist {
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: right;
+                text-decoration: none;
+                margin-bottom: 200px;
+            }
+            .footer {
+                display: block;
+                bottom: 0px;
+                left: 0;
+                width: 100%;
+                position: fixed;
+                margin: auto;
+                background-color: gray;
+                padding: 10px 0px;
+            }
+            .rightfooter {
+                float: right;
+            }
+            .rightfooter a{
+                text-decoration: none;
+                color: black            
+            }
+            
+            #searchform {
+                display: block;
+                margin: auto; 
+                text-align: left;
+                border: solid black 0.5px;
+                border-radius: 18px;
+                width: 50%;
+                padding: 10px;
+                outline: none;
+              }
+            #googlelogo {
+                display: block;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .searchbutton {
+                margin: 20px;
+                text-align: center;
+                padding: 10px;
+            }
+            .searchbutton input {
+                padding: 10px;
+                border-radius: 8px;
+            }
+            #searchform:focus {
+                border-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+                <ul class="navlist">
+                        <li class="navbar"><a href="default.asp">Home</a></li>
+                        <li class="navbar"><a href="news.asp">News</a></li>
+                        <li class="navbar"><a href="contact.asp">Contact</a></li>
+                        <li class="navbar"><a href="about.asp">About</a></li>
+                </ul>
+        </div>
+                 
+        <a id="googlelogo" href="google.html"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a>
+        <form >
+            <input id="searchform" type="text">
+            <div class="searchbutton">
+                <input title="submit" type="submit" value="Zoeken">
+                <input title="Ik doe een gok" type="submit" value="Ik doe een gok">
+            </div>
+            
+        </form>  
+
+        
+        <ul class="footer">
+            <li class="navbar"><a href="default.asp">Home</a></li>
+            <li class="navbar"><a href="news.asp">News</a></li>
+            <li class="navbar"><a href="contact.asp">Contact</a></li>
+            <li class="navbar"><a href="about.asp">About</a></li>
+            <span class="rightfooter">
+                    <li><a href="default.asp">Right</a></li>
+                    <li><a href="default.asp">Right Ahead</a></li>
+            </span>
+        </ul>
+        
+    </body>
+</html>
